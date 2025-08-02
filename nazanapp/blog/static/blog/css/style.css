@@ -1,0 +1,39 @@
+#nazandeniz {
+  color: crimson;
+}
+
+#aboutme {
+  text-align: justify;
+  width: 50%;
+  margin: 10px auto; /* Mevcut margin auto, yatayda merkezi yapar */
+  font-size: 1.3rem;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute; /* Absolute positioning kullanarak dikey merkezleme yapılacak */
+  top: 50%; /* Sayfanın ortasına getirmek için */
+  left: 50%; /* Yatayda ortalamak için */
+  transform: translate(-50%, -50%); /* Merkeze tam olarak oturtmak için */
+}
+
+html,
+body {
+  height: 100%; /* Bu kısım kalabilir */
+  overflow: hidden; /* Kaydırma çubuklarını gizler */
+}
+
+.scrollable-div {
+  height: 100px; /* Belirli bir yükseklik belirleyin */
+  overflow-y: scroll; /* Yalnızca dikey kaydırma */
+}
+ul#emailid a {
+  background-color: crimson;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#emailid a:hover {
+ color:black;
+}

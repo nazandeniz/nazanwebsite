@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% load static %} {%block css_files%}
+<link rel="stylesheet" href="{%static 'blog/css/style.css'%}" />
+{% endblock %} {% block title %} Nazan DENİZ{% endblock %} {% block content %}
+<p id="aboutme">
+  I'm a web developer from İstanbul, Türkiye. I specialize in designing and
+  developing web experiences. I work with organizations and individuals to
+  create beautiful, responsive, and scalable web products tailor-made for them.
+  Think we can make something great together? Let's talk over email.
+</p>
+<ul id="emailid">
+  <li>
+    <a href="mailto:1nazandeniz@gmail.com?subject=subject&body=Hello Nazan!"
+      >Send Mail</a
+    >
+  </li>
+</ul>
+
+{% endblock %}
