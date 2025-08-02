@@ -9,7 +9,6 @@ My personal portfolio website. Built with Django, featuring multilingual support
 ## 🚀 Features
 
 - 🌙🌞 Light/Dark Mode Support  
-- 🌍 EN/TR Language Selection  
 - 📱 Responsive Design (mobile-friendly)  
 - 💼 Project cards and résumé section  
 - 📩 Contact Form  
@@ -59,7 +58,6 @@ Kişisel portfolyo web sitem. Django tabanlı, çok dilli destekli, tema geçiş
 ## 🚀 Özellikler
 
 - 🌙🌞 Light/Dark Mod Desteği  
-- 🌍 EN/TR Dil Seçimi  
 - 📱 Responsive Tasarım (mobil uyumlu)  
 - 💼 Proje kartları ve özgeçmiş alanı  
 - 📩 İletişim Formu  
