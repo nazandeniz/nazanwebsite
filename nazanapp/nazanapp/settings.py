@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-f9m=rbq(a-o!a+lzky+0%#cy9i7c5^l=h+$je!4rrl)0a7ww-^
 DEBUG = True
 ALLOWED_HOSTS = [DEBUG = False
 
-ALLOWED_HOSTS = ['nazandeniz.pythonanywhere.com']]
+ALLOWED_HOSTS = ['*']]
 
 # Uygulamalar
 INSTALLED_APPS = [
